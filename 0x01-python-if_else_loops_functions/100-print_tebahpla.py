@@ -5,5 +5,3 @@ for x in range(122, 96, -1):
     else:
         diff = 32
     print('{}'.format(chr(x - diff)), end='')
-
- 
