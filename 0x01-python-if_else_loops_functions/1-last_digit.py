@@ -17,4 +17,4 @@ elif last_digit < 6 and not 0:
     competition = "and is less than 6 and not 0"
 
 
-print(f"Last digit of {number} is {last_digit} {competition}")
+print(f"Last digit of {str(number)} is {str(last_digit)} {competition}")
