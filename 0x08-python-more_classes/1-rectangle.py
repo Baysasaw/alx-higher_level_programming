@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-# 0-rectangle.py
-"""Defines a Rectangle class."""
+"""Filename: 0-rectangle"""
 
 
 class Rectangle:
