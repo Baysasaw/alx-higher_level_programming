@@ -25,7 +25,8 @@ def add_integer(a, b=98):
         b = int(b)
         """
         
-        Returns an integer: the addition of a and b
+        Returns:
+          int: the addition of a and b
         
         """
         return a + b
