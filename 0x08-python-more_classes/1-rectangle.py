@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-"""Filename: 0-rectangle"""
 
 
 class Rectangle:
