@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-
-
+"""Filename: 0-rectangle"""
 class Rectangle:
     """Represent a rectangle."""
     def __init__(self, width=0, height=0):
