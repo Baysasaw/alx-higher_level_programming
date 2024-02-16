@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#0-add_integer.py
+"""Filename: 0-add_integer"""
 
 def add_integer(a, b=98):
     """a and b must be integers or floats, otherwise raise a TypeError
