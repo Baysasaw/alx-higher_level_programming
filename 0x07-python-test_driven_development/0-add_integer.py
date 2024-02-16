@@ -1,10 +1,4 @@
 #!/usr/bin/python3
-"""
-
-Filename : 0-add_integer
-
-"""
-
 def add_integer(a, b=98):
     if not isinstance(a, int) and not isinstance(a, float):
         raise TypeError("a must be an integer")
