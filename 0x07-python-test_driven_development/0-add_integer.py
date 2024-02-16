@@ -1,20 +1,33 @@
 #!/usr/bin/python3
-"""Filename: 0-add_integer"""
+"""A module to add two numbers
+
+This module performs the addition operation between two numbers,
+these numbers can be integers or floats.
+
+"""
 
 def add_integer(a, b=98):
-    """
+     """Adds two numbers
 
-    a and b must be integers or floats, otherwise raise a TypeError
-    exception with the message a must be an integer or b must be an integer
-    
-    """
+    Performs the addition between two numbers.
 
-    if type(a) != int and type(a) != float:
+    Args:
+        a (:obj:`int, float`): The first number.
+        b (:obj:`int, float`, optional): The second number.
+
+    Returns:
+        int: The result of the addition.
+
+    """
+     
+     
+     if type(a) != int and type(a) != float:
         raise TypeError('a must be an integer')
-
-    if type(b) != int and type(b) != float:
+     
+     if type(b) != int and type(b) != float:
         raise TypeError('b must be an integer')
-    else:
+     
+     else:
         """
         
         a and b must be first casted to integers if they are float
