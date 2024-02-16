@@ -28,19 +28,8 @@ def add_integer(a, b=98):
         raise TypeError('b must be an integer')
      
      else:
-        """
-        
-        a and b must be first casted to integers if they are float
-        
-        """
-
         a = int(a)
         b = int(b)
-        """
-        
-        Returns:
-          int: the addition of a and b
-        
-        """
+
         return a + b
     
