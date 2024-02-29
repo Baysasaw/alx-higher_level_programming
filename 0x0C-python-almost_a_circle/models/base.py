@@ -1,11 +1,6 @@
 #!/usr/bin/python3
 
 """Defines a base model class."""
-import json
-import csv
-import turtle
-
-
 class Base:
     """Base model.
 
@@ -28,4 +23,3 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
-            
