@@ -1,6 +1,4 @@
 #!/usr/bin/node
-// The first line: “C is fun”
-// The second line: “Python is cool”
-// The third line: “JavaScript is amazing”
+// It prints 3 lines
 
-console.log('C is fun\nPython is cool\nJavaScript is amazing');
+console.log('C is fun\nPython is cool\nJavascript is amazing');
